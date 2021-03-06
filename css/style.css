@@ -99,6 +99,7 @@ nav {
     text-transform: uppercase;
     font-weight: bold;
     padding: 1em 2em;
+    align-self: flex-start;
 }
 .main-button__full-black {
     color: #fff;
@@ -159,6 +160,9 @@ nav {
 .about-left-p__opacity {
     color: rgba(0, 0, 0, 0.4);
 }
+.padding-b1 {
+    padding-bottom: 1em;
+}
 .padding-b4 {
     padding-bottom: 4em;
 }
@@ -174,20 +178,23 @@ nav {
     top: -10em;
     margin: auto;
     display: flex;
+    background-color: #fff;
 }
 .form-img {
     align-self: center;
 }
 .form-popup-wrap {
-    background-color: #fff;
+    
     display: flex;
     align-items: center;
     padding: 0 8em;
+    flex: 100% 1 1;
 }
 .form-wrap-flex {
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex: 100% 1 1;
 }
 .form-popup-sale {
     text-transform: uppercase;
@@ -208,11 +215,11 @@ nav {
 }
 .form-body-col {
     flex: 100% 1 1;
-    padding: 1em;
+    padding: 1.3em;
 }
 select,
 input {
-    width: 200px;
+    width: 250px;
     border: none;
     border-bottom: solid 1px #000;
     color: rgba(0, 0, 0, 0.7);
@@ -225,4 +232,52 @@ input:active,
 input:hover,
 input:focus {
 outline: none;
+}
+
+
+
+
+.program {
+    padding: 5em 0;
+}
+
+.program-content {
+    color: rgba(0, 0, 0, 0.4);
+}
+.program-row {
+    display: flex;
+    padding-top: 3em;
+
+}
+.program-col {
+    display: flex;
+    flex-direction: column;
+    flex: 100% 1 1;
+    margin: 0 1.2em;
+    background-color: #f1f4f6;
+}
+.program-col-wrap {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding: 2.5em 0;
+}
+.program-col:first-child {
+    margin-left: 0;
+}
+
+.program-col:last-child {
+    margin-right: 0;
+}
+.program-h3 {
+    text-transform:capitalize;
+    font-size: 2.4em;
+    color: #000;
+}
+.program-col-text {
+    color: #000;
+    line-height: 2em;
+    height: 8em;
+    font-size: 1.3em;
 }

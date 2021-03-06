@@ -31,6 +31,7 @@ header{
     background-size: cover;
     background-position: center bottom;
     height: 100vh;
+    position: relative;
 }
 nav {
     margin-right: auto;
@@ -99,13 +100,129 @@ nav {
     font-weight: bold;
     padding: 1em 2em;
 }
-.main-button__full {
+.main-button__full-black {
     color: #fff;
     background-color: #fa7c30;
     border: transparent solid 2px;
 }
-.main-button__full:hover {
+.main-button__full-black:hover {
     color: #fff;
     background-color: transparent;
     border: #fff solid 2px;
+}
+.main-button__full-light {
+    color: #fff;
+    background-color: #fa7c30;
+    border: transparent solid 2px;
+}
+.main-button__full-light:hover {
+    color: #000;
+    background-color: transparent;
+    border: #000 solid 2px;
+}
+
+.about {
+    background-color: #f1f4f6;
+    color: #000;
+    position: relative;
+    padding-top: 35em;
+}
+.about-col {
+    display: flex;
+    align-items: center;
+    
+}
+.about-col-left-wrap {
+    width: 55%;
+}
+.about-col-left {
+    flex: 100% 1 1;
+}
+.about-col-right {
+    align-self: center;
+    flex: 100% 1 1;
+}
+.h2 {
+    text-transform: uppercase;
+    font-size: 2.5em;
+    color: #000;
+    /*padding: 2.5em 0 0.1em 0;*/
+    font-weight: bold;
+    /*line-height: 1.2em;*/
+}
+.h2 span {
+    color: #fa7c30;
+} 
+.about-left-p {
+    line-height: 2em;
+}
+.about-left-p__opacity {
+    color: rgba(0, 0, 0, 0.4);
+}
+.padding-b4 {
+    padding-bottom: 4em;
+}
+.padding-b6 {
+    padding-bottom: 6em;
+}
+    
+.form-popup {
+    position: absolute;
+    max-width: 1440px;
+    left: 0;
+    right: 0;
+    top: -10em;
+    margin: auto;
+    display: flex;
+}
+.form-img {
+    align-self: center;
+}
+.form-popup-wrap {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 0 8em;
+}
+.form-wrap-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-popup-sale {
+    text-transform: uppercase;
+    font-size: 2em;
+    color: #000;
+    font-weight: bold;
+}
+.h3 {
+    text-transform: uppercase;
+    font-size: 2.5em;
+    color: #000;
+}
+.form-popup-body {
+    text-align: center;
+}
+.form-body-row {
+    display: flex;
+}
+.form-body-col {
+    flex: 100% 1 1;
+    padding: 1em;
+}
+select,
+input {
+    width: 200px;
+    border: none;
+    border-bottom: solid 1px #000;
+    color: rgba(0, 0, 0, 0.7);
+    padding-bottom: 0.7em;
+}
+select {
+
+}
+input:active,
+input:hover,
+input:focus {
+outline: none;
 }

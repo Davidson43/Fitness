@@ -24,7 +24,9 @@ ul {
 }
 
 header{
-    background-image: url("../img/header.jpg");
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url('../img/header.jpg');
+	background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/header.jpg');
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/header.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center bottom;
@@ -72,4 +74,38 @@ nav {
     background-color: #fa7c30;
     border: #fa7c30 solid 2px;
     color: #fff;
+}
+.wrap {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.h1 {
+    text-transform: uppercase;
+    font-size: 5em;
+    padding: 2.5em 0 0.1em 0;
+    font-weight: bold;
+    line-height: 1.2em;
+}
+.h1 span {
+    display: block;
+    color: #fa7c30;
+}
+.slogan {
+    /*padding-left: 0.3em;*/
+    padding-bottom: 6em;
+}
+.main-button {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 1em 2em;
+}
+.main-button__full {
+    color: #fff;
+    background-color: #fa7c30;
+    border: transparent solid 2px;
+}
+.main-button__full:hover {
+    color: #fff;
+    background-color: transparent;
+    border: #fff solid 2px;
 }

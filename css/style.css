@@ -237,7 +237,8 @@ outline: none;
 
 
 
-.program {
+.program,
+.team {
     padding: 5em 0;
 }
 
@@ -254,6 +255,9 @@ outline: none;
     flex-direction: column;
     flex: 100% 1 1;
     margin: 0 1.2em;
+    
+}
+.program-col__gray {
     background-color: #f1f4f6;
 }
 .program-col .main-button {
@@ -309,4 +313,24 @@ outline: none;
     align-items: center;
     justify-content: center;
     height: 100%;
+}
+
+.team-col-wrap {
+    display: flex;
+    flex-direction: column;
+    padding: 2.5em 0;
+    text-align: center;
+}
+.team-col-text {
+    color: #000;
+    line-height: 2em;
+    height: 4em;
+    font-size: 1.3em;
+}
+.team-col-job {
+    text-transform: uppercase;
+    font-size: 1.3em;
+    font-weight: bold;
+    padding-bottom: 1.5em;
+    color: #fa7c30;
 }

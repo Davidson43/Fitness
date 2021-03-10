@@ -80,6 +80,7 @@ nav {
     max-width: 1440px;
     margin: 0 auto;
     height: 100%;
+    padding: 0 1em;
 }
 .h1 {
     text-transform: uppercase;
@@ -235,7 +236,12 @@ outline: none;
 }
 
 
-
+.about-col-right img {
+    width: 100%;
+}
+.program-col img {
+    width: 100%;
+}
 
 .program,
 .team {

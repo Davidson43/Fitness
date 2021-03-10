@@ -1,0 +1,49 @@
+
+@media (max-width: 1200px) {
+	.about {
+		padding: 30em 0 5em 0;
+	}
+	 
+	.form-popup {
+		position: absolute;
+		max-width: 1440px;
+		left: 0;
+		right: 0;
+		top: -15em;
+		margin: auto;
+		display: flex;
+		background-color: #fff;
+	}
+	.form-img {
+		align-self: center;
+	}
+	.form-popup-wrap {
+		padding: 0;
+	}
+	select,
+	input {
+		width: 160px;
+	}
+	.about-col-left {
+		flex: 50% 1 1;
+	}
+	.about-col-right {
+		align-self: center;
+		flex: 50% 1 1;
+	}
+
+}
+@media (max-width: 992px) {
+	
+}
+@media (max-width: 768px) {
+	
+}
+@media (max-width: 576px) {
+	
+}
+@media screen and (max-width: 350px) {
+	body {
+		width: 350px;
+	}
+}

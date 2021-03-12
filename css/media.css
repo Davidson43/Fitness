@@ -75,7 +75,9 @@
 	}
 }
 @media (max-width: 768px) {
-	
+	.footer-col-blog {
+		flex: 1 1 100%;
+	}
 }
 @media (max-width: 576px) {
 	.trainer-h2 {
@@ -89,5 +91,8 @@
 @media screen and (max-width: 350px) {
 	body {
 		width: 350px;
+	}
+	.footer-social {
+		flex-wrap: wrap;
 	}
 }

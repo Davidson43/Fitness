@@ -132,7 +132,6 @@ nav {
 .about-col {
     display: flex;
     align-items: center;
-    
 }
 .about-col-left-wrap {
     width: 55%;
@@ -312,6 +311,7 @@ outline: none;
     font-size: 5em;
     font-weight: bold;
     padding-bottom: 0.5em;
+    text-align: center;
 }
 .contain {
     display: flex;
@@ -389,6 +389,7 @@ outline: none;
     font-size: 3em;
     font-weight: bold;
     padding-bottom: 1em;
+    text-align: center;
 }
 
 .footer {
@@ -407,11 +408,12 @@ outline: none;
     display: flex;
     flex-direction: column;
     flex: 1 1 45%;
+    align-items: flex-start;
 }
 .footer-col-inst {
     display: flex;
     flex-direction: column;
-    flex: 1 0 252px;
+    flex: 0 0 252px;
 }
 .footer-first-contant {
     width: 95%;

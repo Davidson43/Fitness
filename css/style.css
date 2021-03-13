@@ -342,9 +342,6 @@ outline: none;
 }
 
 
-.trainer {
-    
-}
 .media {
     display: flex;
     align-items: center;
@@ -423,13 +420,11 @@ outline: none;
 .footer-social {
     display: flex;
 }
-.footer-social-content {
-}
+
 .footer-social-items {
     display: flex;
 }
-.footer-social-item {
-}
+
 .footer-social-link {
     width: 18px;
     height: 16px;
@@ -508,8 +503,6 @@ outline: none;
     padding-bottom: 2em;
 }
 
-.footer-blogs {
-}
 .footer-blog {
     display: flex;
     align-items: center;
@@ -531,12 +524,6 @@ outline: none;
     display: flex;
     flex-wrap: wrap;
 }
-.inst-item {
-}
-.inst-link {
-    
-}
-
 .inst-img {
     width: 84px;
     height: 84px;

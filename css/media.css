@@ -78,6 +78,18 @@
 	.footer-col-blog {
 		flex: 1 1 100%;
 	}
+	.form-popup-sale {
+		font-size: 1.3em;
+	}
+	.h3 {
+		font-size: 2em;
+	}
+	.form-body-row {
+		padding-bottom: 0.7em;
+	}
+	.form-body-col {
+		padding: 0.8em;
+	}
 }
 @media (max-width: 576px) {
 	.trainer-h2 {
@@ -87,6 +99,25 @@
 		font-size: 1.5em;
 	}
 	
+	.form-popup {
+		flex-wrap: wrap;
+	}
+	.form-img {
+		flex: 100% 1 1;
+		order: 1;
+	}
+	.form-img img {
+		width: 100%;
+	}
+	.about {
+		padding: 74em 0 5em 0;
+	}
+	.form-popup-wrap {
+		padding: 5em 0;
+	}
+	.form-body-row {
+		padding-bottom: 3em;
+	}
 }
 @media screen and (max-width: 350px) {
 	body {

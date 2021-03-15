@@ -169,7 +169,7 @@ nav {
 .padding-b4 {
     padding-bottom: 4em;
 }
-.padding-b6 {
+/*.padding-b6 {
     padding-bottom: 6em;
 }
     
@@ -233,6 +233,93 @@ input:hover,
 input:focus {
 outline: none;
 }
+*/
+
+.form-popup {
+    position: absolute;
+    max-width: 1440px;
+    left: 0;
+    right: 0;
+    top: -15em;
+    margin: auto;
+    display: flex;
+    background-color: #fff;
+}
+.form-img {
+    align-self: center;
+}
+.form-popup-wrap {
+    
+    display: flex;
+    align-items: center;
+    padding: 0 8em;
+    flex: 100% 1 1;
+}
+.form-wrap-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 100% 1 1;
+    text-align: center;
+}
+.form-popup-sale {
+    text-transform: uppercase;
+    font-size: 2em;
+    color: #000;
+    font-weight: bold;
+}
+.h3 {
+    text-transform: uppercase;
+    font-size: 2.5em;
+    color: #000;
+}
+.form-popup-body {
+    text-align: center;
+}
+.form-body-row {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 6em;
+}
+.form-body-col {
+    flex: 33.3333% 1 1;
+    padding: 1.3em;
+}
+select,
+input {
+    width: 250px;
+    border: none;
+    border-bottom: solid 1px #000;
+    color: rgba(0, 0, 0, 0.7);
+    padding-bottom: 0.7em;
+}
+input:active,
+input:hover,
+input:focus {
+outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .about-col-right img {

@@ -73,6 +73,16 @@
 	.program-col:last-child {
 		margin: 2em 1em;
 	}
+
+
+	.navDesk {
+		display: none;
+	}
+
+	.navMobile {
+		display: flex;
+	}
+
 }
 @media (max-width: 768px) {
 	.footer-col-blog {
@@ -89,6 +99,10 @@
 	}
 	.form-body-col {
 		padding: 0.8em;
+	}
+	.h1 {
+		font-size: 3em;
+		padding: 5em 0 0.1em 0;
 	}
 }
 @media (max-width: 576px) {
